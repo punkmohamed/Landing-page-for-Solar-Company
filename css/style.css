@@ -1,0 +1,765 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* navbar */
+
+.navbar{
+    background-color: #0B9586;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 130px;
+}
+.navLogo  {
+
+background-color: rgb(18, 109, 109);
+padding: 0 20px 0 20px;
+}
+.navLogo i {
+ color: teal;
+padding: 5px;
+ font-size: 50px;
+}
+.navNumber{
+   font-size: larger;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    margin: 0 20px 0 20px;
+}
+.links .active{
+border-radius: 5px;
+
+border-bottom: 3px solid #0000004D;
+ padding: 5px 20px;
+ border-radius: 5px;
+}
+.rightNav span{
+    float: right;
+}
+nav .menu-toggle {
+    display: none;
+}
+
+/* navbar */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container {
+    padding: 10px;
+    padding-left: 130px;
+    padding-right:130px;
+
+}
+/* hero section */
+.heroSections{
+    background-image: url(../images/solar-panels-meadow\ 1.png);
+    min-height:100vh;
+    background-repeat: no-repeat;
+background-size: cover;
+
+  
+}
+.heroHeader{
+    margin-top: 100px;
+    display: flex;
+align-items: center;
+
+    color: white;
+}
+.progressBar{
+    width: 200px;
+    background-color: gray;
+    height: 2px;
+    margin: 0 20px 0 20px;
+}
+.insideBar{
+    width: 80px;
+    background-color: white;
+    height: 2px;
+}
+.hero-contact{
+    margin-top: 80px;
+    color: white;
+    width: 60%;
+}
+.hero-contact h1{
+    font-size: 60px;
+}
+.hero-contact p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+.heroButtons{
+    display: flex;
+    gap: 20px;
+}
+.heroButtons .todayButton, .backButton{
+padding: 10px 40px 10px 40px ;
+border: none;
+border-radius: 40px;
+}
+.heroButtons .todayButton{
+background-color: #3CAB90;
+color: white;
+}
+.heroButtons .backButton{
+background-color: #FFBB1C;
+color: black;
+}
+/* hero section */
+
+/* friend section */
+
+.box-friend{
+margin: 80px 0 80px 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.box-friend .friend-contact  {
+    width: 60%;
+}
+.box-friend .friend-contact h1 {
+    font-size: 42px;
+}
+.box-friend .friend-contact p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+font-size: 16px;
+    color: #475467;
+    line-height: 24px;
+}
+.box-friend .friend-Img{
+    position: relative;
+    width: 40%;
+    border-radius: 12px;
+}
+.box-friend .friend-Img img{
+    border-radius: 12px;
+    width: 100%;
+}
+.friend-contact ul {
+    list-style: none; 
+    padding: 0; 
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  
+  .friend-contact ul li {
+    margin-bottom: 10px; 
+    font-weight: 600;
+    line-height: 30px;
+  }
+  
+  .friend-contact ul li span {
+    color: #F7DC6F; 
+  }
+ .friend-Img .solar-box{
+    background-color: #FFBB1C;
+    position: absolute;
+    top: 61%;
+    right: 69%;
+    padding: 20px;
+    border-radius: 12px;
+    width: 150px;
+    text-align: center;
+ }
+ .friend-Img .solar-box img{
+    width: 50px; 
+    height: 50px;
+
+ }
+ .friend-Img .solar-box p{
+    font-size: 18px;
+    line-height: 20.95px;
+    font-weight: 400;
+ }
+
+/* friend section */
+
+
+ /* power section */
+
+
+
+ .power-section{
+background-image: url(../images/8116\ 1.png);
+
+height: 505px;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+ }
+ .power-section .power-contact{
+display: flex;
+align-items: center;
+justify-content: start;
+height: 500px;
+width: 60%;
+
+ }
+ .power-section .power-contact h1{
+color: white;
+font-size: 42px;
+line-height: 50.83px;
+font-weight: 600;
+ }
+ .power-section .power-contact p{
+color: white;
+font-size: 20px;
+line-height: 28px;
+font-weight: 500;
+margin-top:24px;
+width: 600px;
+margin-bottom: 24px;
+ }
+ .power-section .power-contact button{
+color: black;
+background-color: #FFBB1C;
+border-radius: 109px;
+padding:12px 34px 12px 34px ;
+border: none;
+
+ }
+
+
+ /* power section */
+
+
+ /* solar kits section */
+
+.solar-kit .solar-header h1{
+    margin-top: 40px;
+font-size: 42px;
+font-weight: 600;
+text-align: center;
+color: #101828;
+}
+.solar-kit .solar-header p{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #475467;
+}
+
+
+.solar-kit .box{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+margin-top: 55px;
+margin-left: 30px;
+}
+.card {
+    width: 100%; 
+  max-width: 370px;
+    height: 454px;
+    background-color: white;
+    box-shadow: 0px 4px 30px 0px #0000000D;
+    display: flex;
+    flex-direction: column;
+}
+.card .card-header img {
+    width: 100%;
+    height: 240px;
+}
+.card .card-contact {
+padding: 20px;
+width: 358.67px;
+height: 214px;
+}
+.card .card-contact h3{
+    color: #101828;
+    font-weight:600 ;
+    font-size:20px ;
+}
+.card .card-contact p{
+    color: #475467;
+    font-weight:400 ;
+    font-size:16px ;
+    width: 318.67px;
+    margin: 20px 0 20px 0;
+}
+.card .card-footer span{
+    padding-top: 20px;
+    color: #3CAB90;
+    font-weight:600 ;
+    font-size:16px ;
+    cursor: pointer;
+}
+ /* solar kits section */
+
+
+
+
+
+
+
+
+ /* repaier section */
+ .repairs{
+    margin-top: 80px;
+    background-image: url(../images//8116\ 1\ \(1\).png);
+height: 505px;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+ }
+ .repairs .repair-contact{
+    color: white;
+    padding: 44px;
+width: 858px;
+height: 221px;
+border-radius: 12px;
+background-color: rgba(0, 0, 0, 0.6); 
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+
+ }
+ .repairs .repair-contact h1{
+text-align: center;
+font-size: 42px;
+line-height: 50px;
+ }
+ .repairs .repair-contact p{
+    margin-top: 40px;
+font-size: 20px;
+text-align: center;
+font-weight: 500;
+line-height: 28px;
+ }
+ /* repaier section */
+
+ /* energy */
+.energy > .container {
+    padding-top: 50px;
+    padding-bottom:50px ;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 1fr 2fr;
+    background-color: #FFBB1C0D;
+  
+ }
+ .energy .right-cards {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    gap: 4rem;
+   
+ }
+ .energy .left {
+    width: 358.67px;
+    height: 337px;
+    display: flex;
+    flex-direction: column;
+ }
+ .energy .left img {
+  width:56px;
+ }
+ .energy .left .energy-contact h1 {
+  font-size:42px ;
+  font-weight: 600;
+  line-height:50.83px ;
+  color: #101828;
+ }
+ .energy .left .energy-contact p {
+  font-size:18px ;
+  font-weight: 400;
+  line-height:28px ;
+  color: #475467;
+ }
+.right-cards{
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(2,1fr);
+}
+ .energy-card{
+    color: #3CAB900D;
+    width: 358.67px;
+    padding: 18px;
+    height:390px ;
+    border-radius:12px ;
+    border: 1px solid #3CAB90 ;
+    box-shadow: 0px 4px 30px 0px #0000000D;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  
+ }
+ .energy .energy-card .card-img {
+padding: 10px;
+border-radius: 10px;
+width: 310.67px;
+height: 106px;
+gap: 10px;
+background-color: #e5e5e5;
+display: flex;
+align-items: center;
+justify-content: center;
+ }
+ .energy .energy-card .card-img img {
+    width: 225px;
+    height: 49px;
+
+ }
+ .energy .energy-card .card-contact {
+    width: 310.67px;
+    height:232px;
+    
+ }
+ .energy .energy-card .card-info h3 {
+font-size: 20px;
+font-weight: 600;
+line-height:30px ;
+color: #101828;
+margin-top: 20px;
+margin-bottom: 20px;
+ }
+ .energy .energy-card .card-info p {
+font-size: 16px;
+font-weight: 400;
+line-height:24px ;
+color: #475467;
+margin-bottom: 20px;
+ }
+ .energy .energy-card .card-footer span {
+   
+font-size: 16px;
+font-weight: 400;
+line-height:24px ;
+color: #3CAB90;
+ }
+ /* energy */
+
+/* our values */
+
+.ourValues > .container {
+    margin-top: 80px;
+    margin-bottom:80px ;
+ 
+    
+}
+.ourValues-header {
+    margin: 30px 0 30px 0;
+}
+
+.ourValues .ourValues-header h1{
+font-size:42px ;
+font-weight: 600;
+line-height: 50px;
+color: #101828;
+text-align: center;
+
+}
+.ourValues .ourValues-header p{
+font-size:18px ;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+color: #475467;
+}
+
+.ourValues  .box-value{
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(3,1fr);
+}
+.ourValues  .value-card{
+    width: 330px;
+height: 300px;
+padding: 32px;
+border-radius: 12px;
+color: #3CAB900D;
+border: 1px solid #3CAB90;
+display: flex;
+justify-content: start;
+align-items: start;
+flex-direction: column;
+background-color: #3CAB900D;
+}
+.ourValues  .value-card img {
+    width: 70px;
+    
+}
+.ourValues  .value-card h6 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left; 
+    color: #101828;
+    padding: 20px 0 20px 0;
+   
+}
+.ourValues  .value-card p {
+color: #475467;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+     
+}
+/* our values */
+
+/* whatTheySay */
+
+
+.whatTheySay > .container {
+    margin-top: 90px;
+    margin-bottom:90px ;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.whatTheySay .WOC{
+    width: 400px;
+    height: 296px;
+gap: 28px;
+    
+}
+.whatTheySay .WOC img{
+    width: 58.33px;
+    height: 48px;
+}
+.whatTheySay .WOC h1{
+
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+
+color: #1C1C1C;
+
+}
+.whatTheySay .WOC p{
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+
+
+}
+
+.whatTheySay .reviewCard {
+    width: 650px;
+    height: 313px;
+    padding: 40px;
+    gap: 87px;
+    border-radius: 24px;
+background-color: #3CAB900F;    
+
+}
+
+
+.whatTheySay .reviewCard .review-header {
+  display: flex;
+  justify-content: space-between;
+  width: 628px;
+height: 126px;
+gap: 40px;
+opacity: 0px;
+}
+
+.whatTheySay .reviewCard .review-header span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+color: #3CAB90;    
+}
+.whatTheySay .reviewCard .review-header .list {
+display: flex;
+width: 72px;
+height: 8px;
+list-style: none;
+gap: 7px;
+}
+.whatTheySay .reviewCard .review-header .list li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+background-color: #D9D9D9;
+    
+}
+.whatTheySay .reviewCard .review-header .list .active {
+background-color: #6B6B6B;
+    
+}
+.whatTheySay .reviewCard .review-body {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.whatTheySay .reviewCard .review-body q{
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+color: #101828;    
+}
+.whatTheySay .reviewCard .review-footer{
+    width: 628px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 120px;
+    
+}
+.whatTheySay .reviewCard .review-user{
+    width: 628px;
+    height: 60px;
+    display: flex;
+    align-items: center;    
+}
+.whatTheySay .reviewCard .review-user img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.whatTheySay .reviewCard .review-user .user-info span{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: left;
+color: #1C1C1C;    
+}
+.whatTheySay .reviewCard .review-user .user-info p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+color: #1C1C1C;    
+}
+
+.whatTheySay .reviewCard .arrows {
+    width: 112px;
+    height: 48px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    
+}
+.whatTheySay .reviewCard .arrows button{
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #1C1C1C;
+}
+
+
+
+/* whatTheySay */
+
+
+
+/* footer*/
+footer {
+    background-color: #283646;
+    padding: 90px 0;
+    color: white;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #71777D;
+}
+
+.footer-links img {
+    width: 185px;
+    height: 64px;
+}
+
+.footer-links ul {
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.footer-links ul li {
+    list-style: none;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.email-form {
+    position: relative;
+    margin-top: 20px;
+}
+
+.email-form input {
+    width: 300px;
+    height: 46px;
+    padding: 0 20px;
+    border-radius: 38px;
+    background: #FFFFFF17;
+    border: 1px solid #B3BDC7;
+    color: white;
+}
+
+.email-form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 48px;
+    padding: 12px 34px;
+    background-color: #FFBB1C;
+    color: white;
+    border: none;
+    border-radius: 109px;
+    cursor: pointer;
+}
+
+.alt-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3.2rem;
+}
+
+.alt-footer ul {
+    display: flex;
+    gap: 20px;
+}
+
+.alt-footer ul li {
+    list-style: none;
+}
+
+.alt-footer ul li a {
+    text-decoration: none;
+    color: #92989F;
+}
+
+.alt-footer span {
+    font-size: 15px;
+    color: #92989F;
+}
+
+/* footer*/
