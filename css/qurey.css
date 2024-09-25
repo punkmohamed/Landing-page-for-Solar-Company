@@ -322,7 +322,9 @@ nav .menu-toggle {
                 font-size: 12px;
             }
             
-            @media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
                 .whatTheySay > .container {
                     flex-direction: column;
                     padding: 40px;
@@ -396,8 +398,7 @@ nav .menu-toggle {
                     max-width: none;
                     height: auto;
                 }
-            }
-            
+           
     .card .card-header img {
         height: auto;
     }
@@ -515,7 +516,7 @@ nav .menu-toggle {
     }
 
     .ourValues .box-value {
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(1, 1fr); 
         gap: 1.5rem;
     }
 
@@ -566,8 +567,7 @@ nav .menu-toggle {
                 justify-content: space-between;
             }
   }
- 
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 720px) and (max-width: 1024px) {
     .navbar {
       padding: 10px 130px;
     }
@@ -582,7 +582,11 @@ nav .menu-toggle {
       flex-direction: row;
       justify-content: space-between;
     }
+    .solar-kit .box {
 
+        grid-template-columns: repeat(2, 1fr);
+ gap: 20px;
+    }
 
     .energy > .container {
         grid-template-columns: 1fr 2fr;
@@ -593,11 +597,14 @@ nav .menu-toggle {
         width: 358.67px;
     }
     .energy .right-cards {
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(1, 1fr); 
         gap: 4rem;
     }
     .energy-card {
         width: 358.67px;
         height: 390px;
+    }
+    .ourValues .box-value{
+        grid-template-columns: repeat(2,1fr);
     }
   }
